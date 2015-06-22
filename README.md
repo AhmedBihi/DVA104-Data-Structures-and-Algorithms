@@ -1,2 +1,2 @@
 # Data Structures and Algorithms
-p.s some comments and variables are in swedish
+Exploring different Data structures & algorithms. p.s some comments and variables are in swedish
