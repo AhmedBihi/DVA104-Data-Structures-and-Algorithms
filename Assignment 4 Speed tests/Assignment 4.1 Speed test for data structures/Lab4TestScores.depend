@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1417700239 source:c:\users\abi14002\desktop\lab4testscores\node.c
+	<stdio.h>
+	<stdlib.h>
+	"node.h"
+
+1417700239 c:\users\abi14002\desktop\lab4testscores\node.h
+
+1417704545 source:c:\users\abi14002\desktop\lab4testscores\tree.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"tree.h"
+	"node.h"
+
+1417700239 c:\users\abi14002\desktop\lab4testscores\tree.h
+	"node.h"
+
+1417704545 source:c:\users\abi14002\desktop\lab4testscores\hash.c
+	<stdio.h>
+	<stdlib.h>
+	"hash.h"
+
+1417704637 source:c:\users\abi14002\desktop\lab4testscores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"tree.h"
+	"hash.h"
+
+1417704318 c:\users\abi14002\desktop\lab4testscores\hash.h
+

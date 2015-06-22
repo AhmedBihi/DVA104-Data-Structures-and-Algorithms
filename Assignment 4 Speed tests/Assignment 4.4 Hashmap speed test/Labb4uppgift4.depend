@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1417639499 source:c:\users\bihi\documents\programming in c\labb4uppgift4\main.c
+	<stdlib.h>
+	<stdio.h>
+	<limits.h>
+	<string.h>
+
+1417700004 source:c:\users\abi14002\desktop\labb4uppgift4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"hash.h"
+
+1417704887 source:c:\users\abi14002\desktop\labb4uppgift4\hash.c
+	<stdio.h>
+	<stdlib.h>
+	"hash.h"
+
+1417698506 c:\users\abi14002\desktop\labb4uppgift4\hash.h
+

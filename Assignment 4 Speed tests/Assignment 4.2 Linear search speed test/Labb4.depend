@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1417635612 source:c:\users\bihi\documents\programming in c\labb4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1417690719 source:c:\users\abi14002\desktop\labb4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
