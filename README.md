@@ -1,2 +1,4 @@
 # Data Structures and Algorithms
-Exploring different Data structures & algorithms. p.s some comments and variables are in swedish
+Exploring different Data structures & algorithms. 
+Programming in C language.
+p.s some comments and variables may be in swedish
