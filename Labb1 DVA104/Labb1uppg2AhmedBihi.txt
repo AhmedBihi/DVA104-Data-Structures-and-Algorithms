@@ -1,0 +1,55 @@
+/***********************************************************
+* Dynamiskt minne, pekare & rekursion, Labb 1 uppgift 2    *
+*       Skapa en rekursiv funktion som returnernar         *
+*       summan 1 + 2 + 3.. n, där n>=1                     *
+*                                                          *
+* Datastrukturer, algoritmer och programkonstruktion,DVA104*
+* Ahmed Bihi                                               *
+* 19920613                                                 *
+* abi14002                                                 *
+*                                                          *
+***********************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/*Rekursiv funktion*/
+int rekursion(int n)
+{
+    int f;
+    static int i = 0;
+    i++;
+    printf("%d: sum(%d)\n", i, n);
+    /*Basfall där n==1*/
+    if(n==1)
+    {
+        printf("Basfall!\n");
+        printf("%d: return %d\n",i, 1);
+        return 1;
+    }
+    /*Annars körs den rekursiva funktionen om inte basfallet har möts*/
+    else
+    {
+        f = n + rekursion(n-1);
+    }
+
+    i--;
+    printf("%d: return %d\n",i, f);
+    return f;
+}
+
+/*Main loopen där test av funktionen sker, input av n variabel
+  samt print av basfall med return värden*/
+int main()
+{
+    int sum, n;
+
+    printf("Returnerar summan 1 + 2 + 3... + n\n");
+    printf("Ange n: ");
+    scanf("%d", &n);
+
+    sum = rekursion(n);
+
+    printf("Svar: %d", sum);
+    return 0;
+}

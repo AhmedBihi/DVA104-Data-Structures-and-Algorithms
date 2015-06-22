@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1418844927 source:c:\users\bihi\documents\programming in c\labb5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"sort.h"
+
+1418844900 source:c:\users\bihi\documents\programming in c\labb5\sort.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<time.h>
+
+1418844228 c:\users\bihi\documents\programming in c\labb5\sort.h
+
+1418844927 source:c:\users\bihi\google drive\gamla dva arbeten & labbar\labb5 dva104\labb5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"sort.h"
+
+1418844228 c:\users\bihi\google drive\gamla dva arbeten & labbar\labb5 dva104\labb5\sort.h
+
+1418844900 source:c:\users\bihi\google drive\gamla dva arbeten & labbar\labb5 dva104\labb5\sort.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<time.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1416861835 source:c:\users\bihi\documents\programming in c\labb2uppg1\list.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"list.h"
+
+1416500512 c:\users\bihi\documents\programming in c\labb2uppg1\list.h
+
+1416861081 source:c:\users\bihi\documents\programming in c\labb2uppg1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1416863281 source:c:\users\bihi\documents\programming in c\labb2uppg2\fifo.c
+	<stdlib.h>
+	<stdio.h>
+	"FIFO.h"
+
+1416863376 source:c:\users\bihi\documents\programming in c\labb2uppg2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FIFO.h"
+	"List.h"
+
+1416863376 c:\users\bihi\documents\programming in c\labb2uppg2\fifo.h
+	"list.h"
+
+1416863376 c:\users\bihi\documents\programming in c\labb2uppg2\list.h
+
+1416863223 source:c:\users\bihi\documents\programming in c\labb2uppg2\list.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"list.h"
+
