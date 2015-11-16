@@ -23,7 +23,7 @@ int dstring_catenate(char **dest, const char *src)
     return 0;
 }
 
-void *dstring_sub(const char *s, const char *start, const char *next)
+void dstring_sub(const char *s, const char *start, const char *next)
 {
     char *substring;
     int membytes = strlen(start) - strlen(next);
