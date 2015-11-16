@@ -23,33 +23,42 @@ int dstring_catenate(char **dest, const char *src)
     return 0;
 }
 
-void dstring_sub(const char *s, const char *start, const char *next)
+char *dstring_sub(const char *start, const char *next)
 {
-    char *substring;
-    int membytes = strlen(start) - strlen(next);
-    substring = (char*)malloc(membytes);
-    strcpy(substring, start);
+    char *sub_string;
+    int size = strlen(start) - strlen(next), i = 0;
+    sub_string = (char*) malloc(size);
+    if (sub_string == NULL){
+        printf("Did not work, not enough space in the memory.\n");
+    }
 
-    printf("%s", substring);
+    while(i<=size){ sub_string[i] = start[i]; ++i; }
+
+    return sub_string;
 }
-
 
 int main()
 {
-    int x = 5;
-    printf("x \t\t= %d\n", x);
-    printf("&x \t\t= %d\n", &x);
-    int *ptr = &x;
-    printf("ptr \t\t= %d\n", ptr);
-    printf("*ptr \t\t= %d\n", *ptr);
-    printf("&ptr \t\t= %d\n", &ptr);
-    int **dblptr = &ptr;
-    printf("dblptr \t\t= %d\n", dblptr);
-    printf("*dblptr \t= %d\n", *dblptr);
-    printf("**dblptr \t= %d\n", **dblptr);
-    printf("&dblptr \t= %d", &dblptr);
+    char* temp;
+    char* temp2;
 
+    temp = dstring_duplicate("Ahmed"); // Här så skriver den ut första strängen och kollar om det funkade.
 
+    printf("This is the string: %s\n", temp); // Slriver ut första strängen.
+
+    if ((dstring_catenate(&temp, "Allan") == 0)) // Här så kollar den om det gick att sätta ihop båda strängarna annars så får man ett meddlenade som visar att det inte fungerade.
+    {
+        printf("Error!");
+    }
+
+    printf("This is the new string: %s\n", temp); // Här så skrtiver den ut båda strängarna efter varandra.
+
+    temp2 = dstring_sub(&temp[2], &temp[6]);
+
+    printf("This is the sub string: %s\n", temp2);
+
+    free(temp);
+    free(temp2);
 
     return 0;
 }
